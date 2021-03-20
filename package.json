@@ -7,6 +7,8 @@
   },
   "main": "index.js",
   "scripts": {
+    "heroku-prebuild": "npm i -f",
+    "heroku-postbuild": "npm run build",
     "start": "node index.js",
     "test": "node test.js",
     "dev": "nodemon index.js"
