@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 :root {
+	background-color: #16201e;
 	--dark-color-a: #667aff;
 	--dark-color-b: #7386ff;
 	--light-color: #e6e9ff;
@@ -109,7 +110,7 @@ a {
 }
 
 .chat-messages .message .meta span {
-	color: #777;
+	color: #1e1515;
 }
 
 .chat-form-container {
